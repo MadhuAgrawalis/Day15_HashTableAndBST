@@ -67,7 +67,7 @@ namespace HashTableAndBST
              //}
              //Console.ReadLine();*/
 
-            Console.WriteLine("*********BINARY SEARCH TREE OPERATIONS*********");
+            /*Console.WriteLine("*********BINARY SEARCH TREE OPERATIONS*********");
             Console.WriteLine("1.Insertion.");
             Console.WriteLine("2.Insert More Elements");
             Console.WriteLine("3.Search the element");
@@ -120,10 +120,10 @@ namespace HashTableAndBST
             }
             Console.ReadLine();
 
-            Console.WriteLine("Hash Tables");
+            Console.WriteLine("Hash Tables");*/
 
 
-            /*  bool flag = true;
+             bool flag = true;
               while (flag)
               {
                   Console.WriteLine("\nEnter the program number which is to be executed \n 1.UC-1, \n 2.UC-2, \n 3.UC-3, \n 4.Exit");
@@ -131,7 +131,7 @@ namespace HashTableAndBST
                   switch (option)
                   {
                       case 1:
-                          MyMapNode<string, string> hashtable = new MyMapNode<string, string>(5);
+                          MyMapNode1<string, string> hashtable = new MyMapNode1<string, string>(5);
                           hashtable.Add("0", "To");
                           hashtable.Add("1", "be");
                           hashtable.Add("2", "or");
@@ -202,7 +202,7 @@ namespace HashTableAndBST
                           }
                           Console.ReadLine();
                           string input1 = "Paranoids are are not paranoid because they are paranoid but because they \n               keep putting themselves deliberately into paranoid avoidable situations\n";
-                          Console.WriteLine($"Statement is:- {input11}");
+                          Console.WriteLine($"Statement is:- {input1}");
                           hashtable11.Display();
                           try
                           {
@@ -241,10 +241,10 @@ namespace HashTableAndBST
                           break;
                   }
               }
-          }*/
+          }
         }
     }
-}
+
     
 
     
